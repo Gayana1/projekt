@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экология Молодежного</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Экология Молодежного</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#articles">Статьи</a></li>
+                <li class="nav-item"><a class="nav-link" href="#news">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tips">Советы</a></li>
+                <li class="nav-item"><a class="nav-link" href="#events">Мероприятия</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<center>
+        <h1>Экология Молодёжный</h1>
+</center>
+   
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="https://images.cdn-cian.ru/images/27/965/611/molodezhnyy-krasnodar-jk-1165697263-7.jpg" alt="Слайд 1">
+            </div>
+            <div class="slide">
+                <img src="https://images.cdn-cian.ru/images/47/965/611/molodezhnyy-krasnodar-jk-1165697400-7.jpg" alt="Слайд 2">
+            </div>
+            <div class="slide">
+                <img src="https://images.cdn-cian.ru/images/27/965/611/molodezhnyy-krasnodar-jk-1165697263-7.jpg" alt="Слайд 3">
+            </div>
+        </div>
+        <div class="controls">
+            <button class="button" id="prev">‹</button>
+            <button class="button" id="next">›</button>
+        </div>
+    </div>
+ 
+
+    <div class="container mt-5">
+
+
+
+
+        
+        <main class="container">
+            <section id="news" class="my-5">
+                <h2>Новости</h2>
+                <article class="news-item bg-light p-3 rounded shadow-sm mb-4">
+                    <h3>Запуск новой программы по озеленению</h3>
+                    <p>В микрорайоне Молодёжный стартует программа по озеленению общественных пространств. Присоединяйтесь к нам!</p>
+                </article>
+                <article class="news-item bg-light p-3 rounded shadow-sm mb-4">
+                    <h3>Успехи в борьбе с загрязнением воздуха</h3>
+                    <p>Недавние меры по снижению выбросов показали положительные результаты. Читайте подробности.</p>
+                </article>
+            </section>
+    
+            <section id="events" class="my-5">
+                <h2>Мероприятия</h2>
+                <div class="event-item bg-light p-3 rounded shadow-sm mb-4">
+                    <h3>Эко-субботник</h3>
+                    <p>Дата: 03.04.25</p>
+                    <p>Приходите на субботник, чтобы помочь очистить территорию от мусора!</p>
+                </div>
+                <div class="event-item bg-light p-3 rounded shadow-sm mb-4">
+                    <h3>Посадка деревьев</h3>
+                    <p>Дата: 20.03.25</p>
+                    <p>Присоединяйтесь к озеленению территории.</p>
+                </div>
+            </section>
+    
+            <section id="tips" class="my-5">
+                <h2>Советы по экологии</h2>
+                <ul class="tips-list list-group">
+                    <li class="list-group-item">Сортируйте мусор и используйте контейнеры для раздельного сбора.</li>
+                    <li class="list-group-item">Сократите использование пластиковых пакетов, заменив их многоразовыми.</li>
+                    <li class="list-group-item">Участвуйте в местных экологических акциях и мероприятиях.</li>
+                </ul>
+            </section>
+        </main> 
+
+        <section id="subscribe" class="bg-light p-3 mb-3">
+            <h2>Подписаться на новости</h2>
+            <input type="email" id="email" class="form-control mb-2" placeholder="Ваш Email">
+            <button id="subscribeButton" class="btn btn-success">Подписаться</button>
+            <div id="subscribeMessage" class="mt-2"></div>
+        </section>
+    </main>
+
+    <footer class="text-center text-white p-3">
+        <p>© 2025 Экология Молодежного. Все права защищены.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
